@@ -1,0 +1,130 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather",serif;
+  color: #40514E;
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0px auto;
+  line-height: 2;
+  position: relative;
+  font-family: "sacramento",cursive;
+  color: #66BFBF
+}
+
+h2 {
+  font-size: 2,5rem;
+  font-family: "Montserrat",sans-serif;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: "Montserrat",sans-serif;
+  color: #11999E;
+}
+
+hr { border: 6px;
+  color: #EAF6F6;
+  border-style: dotted;
+  border-top: none;
+  width: 5%;
+  margin-top: 40px;
+}
+
+.moi{
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+.paragraphe{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill-row {
+  width: 50%;
+margin: 75px auto 150px auto;
+text-align:left;
+line-height: 2;
+
+}
+
+.health{
+  width:40%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 0;
+}
+
+.digital {
+  width:40%;
+  float: right;
+  margin-left: 30px;
+}
+
+.moi {
+  border-radius: 100px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.Middle-container {
+}
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 30px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 50px;
+}
+
+.footer-link:hover {
+  color: white;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.btn {
+	box-shadow: 0px 10px 14px -7px #133333;
+	background:linear-gradient(to bottom, #66bfbf 5%, #3a9191 100%);
+	background-color:#66bfbf;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0c0d0c;
+  margin: 50px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #3a9191 5%, #66bfbf 100%);
+	background-color:#3a9191;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
